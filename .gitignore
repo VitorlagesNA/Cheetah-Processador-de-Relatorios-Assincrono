@@ -1,0 +1,21 @@
+# Ambientes Virtuais (Pastas pesadas de dependências)
+.venv/
+venv/
+ENV/
+env/
+
+# Cache do Python (Ficheiros compilados temporários)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Configurações do VS Code e do Sistema Operativo
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Ficheiros de Variáveis de Ambiente e Segredos
+.env
+*.log
